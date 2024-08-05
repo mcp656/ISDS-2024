@@ -1,3 +1,5 @@
 This for ideas.
 
-Here is an Idea.
+Here is an idea.
+
+And another idea.
