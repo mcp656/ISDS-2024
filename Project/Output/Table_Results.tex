@@ -1,0 +1,15 @@
+\begin{tabular}{llcccccccc}
+\toprule
+ & & \multicolumn{4}{c}{Base Model} & \multicolumn{4}{c}{Polynomial Model} \\
+\cmidrule(lr){3-6} \cmidrule(lr){7-10}
+ & & \multicolumn{2}{c}{Train} & \multicolumn{2}{c}{Test} & \multicolumn{2}{c}{Train} & \multicolumn{2}{c}{Test} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10}
+
+Model & Type & RMSE & MAPE & RMSE & MAPE & RMSE & MAPE & RMSE & MAPE \\
+\midrule
+OLS & No Lasso & 9460.06 & 24.61 & 9677.36 & 23.88 & 8887.97 & 23.41 & 16685.18 & 26.14 \\
+OLS & Lasso & 9545.46 & 23.66 & 9517.12 & 22.90 & 9306.95 & 22.12 & 9615.88 & 24.46 \\
+Poisson & No Ridge & 9598.64 & 17.63 & 9600.25 & 18.43 &   &   &   &   \\
+Poisson & Ridge & 9598.79 & 17.64 & 9599.04 & 18.44 &   &   &   &   \\
+\bottomrule
+\end{tabular}
